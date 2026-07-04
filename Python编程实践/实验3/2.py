@@ -1,0 +1,6 @@
+a=float(input())
+b=float(input())
+m=float(input())
+n=float(input())
+ans=(a+b)/(m+n)
+print(f"两车交汇时长为{ans:.2f}秒.")

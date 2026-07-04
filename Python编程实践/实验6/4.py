@@ -1,0 +1,15 @@
+x=float(input())
+t1=float(input())
+t2=x/t1
+if(t2<=1.0):
+    print("未超速")
+elif(t2<=1.1):
+    print("超速警告")
+elif(t2<=1.2):
+    print("罚款100元")
+elif(t2<=1.5):
+    print("罚款500元")
+elif(t2<=2.0):
+    print("罚款1000元")
+else:
+    print("罚款2000元")
