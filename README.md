@@ -13,7 +13,8 @@ CQU程序设计类课程的作业源码
    #define int long long//强制全局的整型变量均为长整型，防止数据爆 int
    using namespace std;
    signed main(){//由于前面 define 了int，所以为了主函数正常进行使用了 signed
-       
+       cin.tie(0)->sync_with_stdio(0);//关闭流同步，加快输入
+       cout.tie(0);//关闭流同步，加快输出
        return 0;
    }
    ```
